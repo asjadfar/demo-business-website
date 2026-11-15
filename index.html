@@ -8,6 +8,7 @@
 <meta property="og:title" content="Golden Crust Bakery & Cafe">
 <meta property="og:description" content="Fresh bread, pastries & coffee, baked every morning.">
 <meta property="og:type" content="website">
+<link rel="preload" as="image" href="images/hero.webp" fetchpriority="high">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   :root {
@@ -40,7 +41,7 @@
 
   /* Hero */
   .hero { position: relative; min-height: 88vh; display: flex; align-items: center; color: #fff; padding: 0; }
-  .hero::before { content: ""; position: absolute; inset: 0; background: url('https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1600&q=80') center/cover no-repeat; }
+  .hero::before { content: ""; position: absolute; inset: 0; background: url('images/hero.webp') center/cover no-repeat; }
   .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(30,16,6,.82), rgba(30,16,6,.35)); }
   .hero .wrap { position: relative; z-index: 2; }
   .hero h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); color: #fff; max-width: 640px; margin-bottom: 16px; }
@@ -141,7 +142,7 @@
 
 <section id="about">
   <div class="wrap about-grid">
-    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&q=80" alt="Inside Golden Crust Bakery cafe">
+    <img src="images/about.webp" alt="Inside Golden Crust Bakery cafe" width="800" height="549">
     <div>
       <h2>Baked fresh, served with a smile</h2>
       <p>Golden Crust started in 2015 with one oven, a family recipe book, and a simple promise: nothing leaves our kitchen unless we would serve it at our own table.</p>
@@ -161,27 +162,27 @@
     <p class="sub">Our most-loved items, baked fresh this morning. Prices include tax.</p>
     <div class="cards">
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=900&q=80" alt="Country sourdough loaf">
+        <img src="images/sourdough.webp" alt="Country sourdough loaf" width="640" height="360" loading="lazy" decoding="async">
         <div class="card-body"><h3>Country Sourdough</h3><p>Slow-fermented for 24 hours. Crusty outside, soft inside.</p><span class="price">$8.00</span></div>
       </div>
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=900&q=80" alt="Butter croissant with coffee">
+        <img src="images/croissant.webp" alt="Butter croissant with coffee" width="640" height="853" loading="lazy" decoding="async">
         <div class="card-body"><h3>Butter Croissant</h3><p>Flaky, golden, and made with real French butter.</p><span class="price">$4.50</span></div>
       </div>
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=900&q=80" alt="Chocolate cake slice">
+        <img src="images/cake.webp" alt="Chocolate cake slice" width="640" height="800" loading="lazy" decoding="async">
         <div class="card-body"><h3>Chocolate Fudge Cake</h3><p>Rich, moist, and topped with dark chocolate ganache.</p><span class="price">$6.50</span></div>
       </div>
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&q=80" alt="Fresh brewed coffee">
+        <img src="images/coffee.webp" alt="Fresh brewed coffee" width="640" height="427" loading="lazy" decoding="async">
         <div class="card-body"><h3>House Blend Coffee</h3><p>Locally roasted beans, brewed fresh all day long.</p><span class="price">$3.50</span></div>
       </div>
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=900&q=80" alt="Glazed donuts">
+        <img src="images/donuts.webp" alt="Glazed donuts" width="640" height="476" loading="lazy" decoding="async">
         <div class="card-body"><h3>Glazed Donuts (Box of 6)</h3><p>Light, fluffy, and glazed while still warm.</p><span class="price">$12.00</span></div>
       </div>
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=900&q=80" alt="Fresh cafe lunch">
+        <img src="images/lunch.webp" alt="Fresh cafe lunch" width="640" height="480" loading="lazy" decoding="async">
         <div class="card-body"><h3>Cafe Lunch Plate</h3><p>Fresh sandwich, side salad, and a drink of your choice.</p><span class="price">$14.00</span></div>
       </div>
     </div>
@@ -193,10 +194,10 @@
     <h2>From Our Kitchen</h2>
     <p class="sub">A look inside the bakery, fresh from the oven.</p>
     <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80" alt="Coffee shop counter">
-      <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=800&q=80" alt="Fresh bread loaves">
-      <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80" alt="Cafe seating area">
-      <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80" alt="Freshly baked bread">
+      <img src="images/counter.webp" alt="Coffee shop counter" width="480" height="317" loading="lazy" decoding="async">
+      <img src="images/loaves.webp" alt="Fresh bread loaves" width="480" height="320" loading="lazy" decoding="async">
+      <img src="images/about.webp" alt="Cafe seating area" width="800" height="549" loading="lazy" decoding="async">
+      <img src="images/hero.webp" alt="Freshly baked bread" width="1200" height="798" loading="lazy" decoding="async">
     </div>
   </div>
 </section>

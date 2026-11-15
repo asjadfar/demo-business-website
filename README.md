@@ -17,10 +17,10 @@ A modern, mobile-first 1-page business website, built as a demo of my web develo
 
 ## Tech
 - Pure HTML + CSS + JavaScript (no frameworks, no build step)
-- Images from Unsplash
+- Images: Unsplash photos, downloaded and optimized locally as WebP (no hotlinks) — hero preloaded, width/height set on every image
 
 ## Built by
 Asjad Farooq — Shopify Store Designer | Web Developer | SEO
-Fiverr: https://www.fiverr.com/s/L34yBpA
+Fiverr: https://www.fiverr.com/asjadfar/build-a-modern-responsive-website-for-your-business
 
 *Golden Crust Bakery is a fictional demo business created to showcase the website.*
